@@ -1,0 +1,9 @@
+/* Mobile */
+@media (max-width: 740px){
+    #header .navbar{
+        display:none;
+    }
+    .s-col-full{
+        width: 100%;
+    }
+}

@@ -1,0 +1,195 @@
+/* Reset CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Times New Roman', Times, serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+#main{
+    position: relative;
+}
+
+.row {
+    display: block;
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.text-grey{
+    color: #757575;
+}
+
+.padding-64{
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.col-half{
+    width: 50%;
+    float: left;
+}
+.round{
+    border-radius: 4px;
+}
+.image{
+    width: 100%;
+    height: auto;
+}
+.padding-large{
+    padding: 12px 24px;
+}
+
+.padding-tb{
+    padding: 24px 0;
+}
+
+.large{
+    font-size: 18px;
+}
+.center{
+    text-align: center;
+}
+
+h1,h4,h5 {
+    letter-spacing: 5px;
+    font-weight: 400;
+}
+h1 {
+    font-size: 36px;
+}
+h4{
+    font-size: 20px;
+}
+
+h5{
+    font-size: 18px;
+}
+.m-10{
+    margin: 10px 0;
+}
+
+.m-25{
+    margin: 15px 0;
+}
+
+.m-18{
+    margin: 18px 0;
+}
+
+#header {
+    height: 54px;
+    text-decoration: none;
+    padding: 8px 16px;
+    /* box-shadow: 5px 10px rgba(0,0,0,0);#888888; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 5px 0px, rgba(0, 0, 0, 0.12) 0px 2px 10px 0px, 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    font-size: 15px;
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    top:0;
+    z-index: 1;
+}
+
+#header .home:hover{
+    background-color: #ccc;
+}
+
+#header .home>li {
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+#header .home>li a{
+    text-decoration: none;
+    color: #000;
+}
+
+#header .home {
+    display: inline-block;
+    letter-spacing: 4px;
+}
+
+#header .navbar {
+    margin-left: 100px;
+    float: right;
+    letter-spacing: 4px;
+}
+
+#header .navbar>li{
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+#header .navbar>li a {
+    color: #000;
+    
+}
+
+#header .navbar>li:hover{
+    background-color: #ccc;
+}
+
+#header .navbar>li a {
+    text-decoration: none;
+}
+
+#content .home-img{
+}
+
+#content .home-image{
+    margin-top: 54px;
+    max-width: 100%;
+    height: auto;
+}
+
+#content .home-img .home-title{
+    font-weight: 400;
+    letter-spacing: 5px;
+    font-size: 36px;
+    top: 480px;
+    padding: 0 16px;
+    position: absolute;
+}
+
+.input{
+    padding: 16px 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+}
+
+#content .form-name{
+}
+#content .form-number{
+}
+#content .form-datetime{
+}
+#content .form-message{
+}
+#content .form-submit{
+    margin: 16px 0;
+    padding: 16px 8px;
+}
+
+#content #contact {
+    padding: 16px 16px;
+}
+
+#footer{
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 40px 0;
+}
